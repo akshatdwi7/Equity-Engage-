@@ -1,0 +1,390 @@
+body {
+   /* Header Menu */
+.header-menu {
+    position: absolute; 
+    top: 2px; 
+    left: 293px; 
+    width: 491px; 
+    height: 52px; 
+    display: flex; 
+    align-items: center; 
+    font-family: Manrope; /* Body */
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    opacity: 1; 
+  }
+  /* Header Menu - Item */
+  .header-menu .header-menu-item {
+    padding: 15px 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #565D6DFF; /* neutral-600 */
+    background: #000000FF; /* transparent */
+    border-radius: 4px; /* border-m */
+    cursor: pointer; 
+    white-space: nowrap; 
+  }
+  /* Header Menu - Selected item */
+  .header-menu .header-menu-item.selected {
+    position: relative; 
+    font-weight: 700; 
+    color: #6D31EDFF; /* primary-500 */
+    background: #000000FF; /* transparent */
+  }
+  /* Header Menu - Selected item */
+  .header-menu .header-menu-item.selected:hover:active {
+    color: #6D31EDFF; /* primary-500 */
+    background: #000000FF; /* transparent */
+  }
+  /* Header Menu - Item with indicator */
+  .header-menu .header-menu-item.selected .indicator {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 4px; 
+    background: #6D31EDFF; /* primary-500 */
+    border-radius: 2px; 
+  }
+  /* Header menu item 1 */
+  .header-menu .header-menu-item:nth-child(1) {
+    font-family: Manrope; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 700; 
+    color: #6D31EDFF; /* primary-500 */
+  }
+  /* Header menu item 2 */
+  .header-menu .header-menu-item:nth-child(2) {
+    font-family: Manrope; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #565D6DFF; /* neutral-600 */
+  }
+  /* Header menu item 3 */
+  .header-menu .header-menu-item:nth-child(3) {
+    font-family: Manrope; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #565D6DFF; /* neutral-600 */
+  }
+  /* Header menu item 4 */
+  .header-menu .header-menu-item:nth-child(4) {
+    font-family: Manrope; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #565D6DFF; /* neutral-600 */
+  }
+  /* Header menu item 5 */
+  .header-menu .header-menu-item:nth-child(5) {
+    font-family: Manrope; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #565D6DFF; /* neutral-600 */
+  }
+}
+
+header {
+   /* Container */
+/* Container */
+
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 1440px; 
+    height: 56px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 0px; 
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; /* shadow-xs */
+  }
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    .text {
+        position: absolute; 
+        top: 7px; 
+        left: 70px; 
+        font-family: Lexend; /* Heading */
+        font-size: 28px; 
+        line-height: 42px; 
+        font-weight: 700; 
+        color: #000000FF; /* black */
+      }
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Button */
+.pro-btn {
+    position: absolute; 
+    top: 10px; 
+    left: 1040px; 
+    width: 160px; 
+    height: 36px; 
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Manrope; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #6D31EDFF; /* primary-500 */
+    background: #FFFFFFFF; /* white */
+    opacity: 1; 
+    border-radius: 6px; /* border-l */
+    border-width: 1px; 
+    border-color: #6D31EDFF; /* primary-500 */
+    border-style: solid; 
+  }
+  .log-btn{
+    /* Button */
+
+    position: absolute; 
+    top: 10px; 
+    left: 1216px; 
+    width: 160px; 
+    height: 36px; 
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Manrope; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #FFFFFFFF; /* white */
+    background: #6D31EDFF; /* primary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-l */
+  }
+  /* Hover */
+  .button:hover {
+    color: #FFFFFFFF; /* white */
+    background: #5113D7FF; /* primary-600 */
+  }
+  /* Pressed */
+  .button:hover:active {
+    color: #FFFFFFFF; /* white */
+    background: #3F0EA6FF; /* primary-700 */
+  }
+  /* Disabled */
+  .button:disabled {
+    opacity: 0.4; 
+  }
+  
+  /* Hover */
+  .button:hover {
+    color: #5113D7FF; /* primary-600 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* Pressed */
+  .button:hover:active {
+    color: #3F0EA6FF; /* primary-700 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* Disabled */
+  .button:disabled {
+    opacity: 0.4; 
+  }
+  .button:hover {
+    color: #5113D7FF; /* primary-600 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* Pressed */
+  .button:hover:active {
+    color: #3F0EA6FF; /* primary-700 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* Disabled */
+  .button:disabled {
+    opacity: 0.4; 
+  }
+  
+  /* Hover */
+  .button:hover {
+    color: #FFFFFFFF; /* white */
+    background: #5113D7FF; /* primary-600 */
+  }
+  /* Pressed */
+  .button:hover:active {
+    color: #FFFFFFFF; /* white */
+    background: #3F0EA6FF; /* primary-700 */
+  }
+  /* Disabled */
+  .button:disabled {
+    opacity: 0.4; 
+  }
+  /* Hover */
+  .button:hover {
+    color: #5113D7FF; /* primary-600 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* Pressed */
+  .button:hover:active {
+    color: #3F0EA6FF; /* primary-700 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* Disabled */
+  .button:disabled {
+    opacity: 0.4; 
+  }
+
+.auth-buttons button:hover {
+    background-color: #3700b3;
+}
+
+.hero {
+    background-image: url("https://www.google.com/imgres?q=batman%20image%5C&imgurl=https%3A%2F%2Fi0.wp.com%2Fbatman-news.com%2Fwp-content%2Fuploads%2F2024%2F07%2FBatman-Caped-Crusader-Season-1-09.jpg%3Ffit%3D828%252C466%26quality%3D80%26strip%3Dinfo%26ssl%3D1&imgrefurl=https%3A%2F%2Fbatman-news.com%2F&docid=MimkOiOeV4njBM&tbnid=QnvnPIkBpqiL7M&vet=12ahUKEwiDvaT4ytaHAxV8cvUHHYmiO7kQM3oECGEQAA..i&w=828&h=466&hcb=2&ved=2ahUKEwiDvaT4ytaHAxV8cvUHHYmiO7kQM3oECGEQAA");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.hero button:hover {
+    background-color: #3700b3;
+}
+
+.forum-topics, .latest-posts, .top-users {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.forum-topics h2, .forum-topics h3, .latest-posts h3, .top-users h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.topic-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.topic-card h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.latest-posts ul, .top-users ul {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-posts ul li, .top-users ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+}
+
+.footer-bottom input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer-bottom button {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-bottom button:hover {
+    background-color: #3700b3;
+}
